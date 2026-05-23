@@ -2211,6 +2211,8 @@ endpoints:
     group: core
     url: "https://example.org/"
     interval: 5m
+    client:
+      insecure: true
     conditions:
       - "[STATUS] == 200"
       - "[CERTIFICATE_EXPIRATION] > 48h"
