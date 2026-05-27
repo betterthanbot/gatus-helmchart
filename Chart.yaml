@@ -5,7 +5,7 @@ description: |
   Deploys Gatus with a fully configurable set of HTTP/HTTPS endpoint monitors,
   persistent SQLite storage, a ClusterIP Service, and an OpenShift Route.
 type: application
-version: 1.0.1
+version: 1.0.2
 appVersion: "latest"
 keywords:
   - gatus
